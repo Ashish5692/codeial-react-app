@@ -3,7 +3,7 @@ import styles from '../styles/home.module.css';
 import { useAuth, usePosts } from '../hooks';
 
 
-const Home =()=>{
+ const Home =()=>{
 
   const auth = useAuth();
   const posts = usePosts();
